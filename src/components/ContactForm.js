@@ -18,7 +18,7 @@ const ContactForm = () => {
           <input
             name="firstName"
             data-testid="firstName"
-            placeholder="Edd"
+            placeholder="First name here"
             ref={register({ required: true, maxLength: 4 })}
           />
           {errors.firstName && (
@@ -31,7 +31,7 @@ const ContactForm = () => {
           <input
             name="lastName"
             data-testid="lastName"
-            placeholder="Burke"
+            placeholder="Last name here"
             ref={register({ required: true })}
           />
           {errors.lastName && (
